@@ -1,6 +1,6 @@
 Extract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
 
-We found a craft beers dataset from Kaggle that includes a list of 2,410 US craft beers and 510 craft breweries. The dataset was collected in January 2017 from CraftCans.com. The dataset includes 2 CVSs: one that contains information about all the beers and one that contains information on all the breweries. These datasets are linked be brewery ID. We wanted to supplement this dataset, so we scraped data from brewersassociation.org that has data on the state level about production, consumption and sales for each state. We were able to merge this with our brewery level dataset on the common column of state.
+We found a craft beers dataset from Kaggle that includes a list of 2,410 US craft beers and 510 craft breweries. The dataset was collected in January 2017 from CraftCans.com. The dataset includes 2 CVSs: one that contains information about all the beers, and one that contains information on all the breweries. These datasets are linked via brewery ID. We wanted to supplement this dataset, so we scraped data from https://brewersassociation.org that has data on the state level about production, consumption and sales for each state. We were able to merge this with our brewery level dataset on the common column of state.
 
 
 
